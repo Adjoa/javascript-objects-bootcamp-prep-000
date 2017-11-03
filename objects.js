@@ -1,4 +1,4 @@
-/* Limitation: This playlist uses artist names as keys. Because the key in a 
+/* Limitation: This playlist uses artist names as keys. Because the key in a
 JavaScript object must be a unique string, this playlist cannot contain multiple
 songs by the same artist */
 var playlist = new Object();
