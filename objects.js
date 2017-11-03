@@ -5,7 +5,7 @@ var playlist = new Object();
 playlist['Shakira'] = 'Hips Don\'t Lie';
 
 function updatePlaylist(playlist, artist, songTitle) {
-  return Object.assign({}, playlist, { artist: songTitle });
+  return Object.assign({}, playlist, { [artist]: songTitle });
 }
 
 function removeFromPlaylist(playlist, artist) {
